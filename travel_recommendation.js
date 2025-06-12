@@ -7,6 +7,7 @@ function handleSearch() {
         var matchs= searchNamesWithPluralSupport(data,keyword);
         console.log(matchs);
         var locationsDiv = document.getElementById('locationsList');
+        locationsDiv.innerHTML='';
         
   matchs.forEach(function(location) {
       var locationDiv = document.createElement('div');
@@ -68,8 +69,7 @@ function searchNamesWithPluralSupport(data, keyword) {
   return results;
 }
 
-
-
     function handleReset() {
       document.getElementById('searchInput').value = '';
+      document.getElementById('locationsList').innerHTML = '';
     }
