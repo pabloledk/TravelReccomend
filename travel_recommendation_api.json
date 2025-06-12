@@ -1,0 +1,81 @@
+{
+    "locations": [
+      {
+        "id": 1,
+        "name": "Peaks",
+        "places": [
+          {
+            "name": "The Torres del Paine (The Towers) - Peaks",
+            "imageUrl": "https://img.cdn-pictorem.com/uploads/collection/G/GC7DLF7KTE/600_fabartdesigns_151.jpg",
+            "description": "Three massive granite spires rising dramatically above a turquoise glacial lake — the park's most famous landmark."
+          },
+          {
+            "name": "Cuernos del Paine (The Horns) - Peaks",
+            "imageUrl": "https://img.cdn-pictorem.com/uploads/collection/G/GC7DLF7KTE/600_fabartdesigns_151.jpg",
+            "description": "Striking multi-colored horn-shaped peaks with dark sedimentary layers contrasting sharply against grey granite."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "lakes",
+        "places": [
+          {
+            "name": "Lago / Lake Pehoé",
+            "imageUrl": "https://img.cdn-pictorem.com/uploads/collection/G/GC7DLF7KTE/600_fabartdesigns_151.jpg",
+            "description": "One of the most photogenic lakes in Patagonia, with turquoise waters and stunning reflections of surrounding peaks, including the Cuernos."
+          },
+          {
+            "name": "Lago / Lake Nordenskjöld",
+            "imageUrl": "https://img.cdn-pictorem.com/uploads/collection/G/GC7DLF7KTE/600_fabartdesigns_151.jpg",
+            "description": "A large, scenic lake with milky turquoise waters located at the base of the Cuernos del Paine — perfect for photography and moderate hikes."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Glaciers",
+        "places": [
+          {
+            "name": "Grey Glacier / Glaciar",
+            "imageUrl": "https://img.cdn-pictorem.com/uploads/collection/G/GC7DLF7KTE/600_fabartdesigns_151.jpg",
+            "description": "A massive glacier part of the Southern Patagonian Ice Field. Accessible by boat or ice trekking tours."
+          },
+          {
+            "name": "French Glacier / Glaciar",
+            "imageUrl": "https://img.cdn-pictorem.com/uploads/collection/G/GC7DLF7KTE/600_fabartdesigns_151.jpg",
+            "description": "A hanging glacier in the French Valley, constantly cracking and calving — often heard before it’s seen."
+          }
+        ]
+      }
+    ],
+    "Valleys & Viewpoints": [
+      {
+        "id": 1,
+        "name": "Valle del Francés (French Valley)",
+        "imageUrl": "https://img.cdn-pictorem.com/uploads/collection/G/GC7DLF7KTE/600_fabartdesigns_151.jpg",
+        "description": "A central section of the W Trek, featuring hanging glaciers and epic cliff walls."
+      },
+      {
+        "id": 2,
+        "name": "Valle del Silencio (Silence Valley)",
+       "imageUrl": "https://img.cdn-pictorem.com/uploads/collection/G/GC7DLF7KTE/600_fabartdesigns_151.jpg",
+        "description": "A remote and quiet valley on the O Circuit, surrounded by rugged terrain."
+      }
+    ],
+    "Wildlife & Scenic Zones": [
+      {
+        "id": 1,
+        "name": "Laguna Amarga / Lagoon",
+        "imageUrl": "https://img.cdn-pictorem.com/uploads/collection/G/GC7DLF7KTE/600_fabartdesigns_151.jpg",
+        "description": "A lake with high mineral content and common sightings of flamingos and guanacos — a main park entry point."
+      },
+      {
+        "id": 2,
+        "name": "Sierra Masle Lookout / Mirador",
+        "imageUrl": "https://img.cdn-pictorem.com/uploads/collection/G/GC7DLF7KTE/600_fabartdesigns_151.jpg",
+        "description": "A quiet, lesser-known ridge with panoramic views over Lago Sarmiento and the open Patagonian steppe."
+      }
+    ]
+  }
+  
