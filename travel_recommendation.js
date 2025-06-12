@@ -5,11 +5,10 @@ function handleSearch() {
     .then(response => response.json())
     .then(data => {
         var matchs= searchNamesWithPluralSupport(data,keyword);
-
-        var locations = matchs.response.locations;
+        console.log(matchs);
         var locationsDiv = document.getElementById('locationsList');
         
-  locations.forEach(function(location) {
+  matchs.forEach(function(location) {
       var locationDiv = document.createElement('div');
       locationDiv.classList.add('location');
 
@@ -18,6 +17,7 @@ function handleSearch() {
 
       var imageUrl = document.createElement('img');
       imageUrl.src = location.imageUrl;
+      imageUrl.width= 300;
 
       var description = document.createElement('p');
       description.textContent = location.description;
@@ -29,6 +29,7 @@ function handleSearch() {
       locationsDiv.appendChild(locationDiv);    
       console.log(locationsDiv);  
     });
+
 })}
     
 

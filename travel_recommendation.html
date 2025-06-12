@@ -110,9 +110,26 @@
       height: 100vh;
       display: flex;
       justify-content: center;
-      align-items: center;
       color: white;
       text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    }
+    .content {
+          width: 80%; /* or try a fixed value like 400px */
+  margin-left: 90px;   /* pushes the box to the right */
+  margin-right: auto;  /* optional spacing from right edge */
+  text-align: left;
+  padding: 20px;
+  border-radius: 8px; 
+         /* optional rounded corners */
+
+    }
+    .content1 {
+        width: 70%; /* or try a fixed value like 400px */
+        margin-left: 10px;   /* pushes the box to the right */
+        margin-right: 10px;  /* optional spacing from right edge */
+        padding: 20px;
+        border-radius: 8px;        /* optional rounded corners */
+              align-items: center;
     }
 
   </style>
@@ -145,8 +162,9 @@
       <h1>Welcome to Torres del Paine</h1>
       <p>Explore the natural beauty of Patagonia</p>
     </div>
+    <div class="content1" id="locationsList"></div>
+
   </div>
-<div id="locationsList"></div>
     <script src="./travel_recommendation.js"></script>
 </body>
 </html>
