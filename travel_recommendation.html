@@ -120,6 +120,15 @@
   text-align: left;
   padding: 20px;
   border-radius: 8px; 
+  display: flex;
+  flex-direction: column; /* stack elements vertically */
+  align-items: flex-start; /* keep them left-aligned */
+  justify-content: center; /* vertically center the group */
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  color: white;
          /* optional rounded corners */
 
     }
@@ -138,11 +147,11 @@
 <body>
 
   <div class="navbar">
-    <a href="#" class="logo">Travel Recommendations</a>
+    <a href="#" class="logo">Pablo's Travel Recommendations</a>
     <div class="nav-links">
-      <a href="#home">Home</a>
-      <a href="#about">About Us</a>
-      <a href="#contact">Contact Us</a>
+      <a href="./travel_recommendation.html">Home</a>
+      <a href="./about_us.html">About Us</a>
+      <a href="./contact_us.html">Contact Us</a>
       <div class="search-box">
         <input type="text" id="searchInput" placeholder="Search valley, glacier..." />
         <button onclick="handleSearch()">Search</button>
