@@ -106,19 +106,18 @@
     .background {
       background-image: url('https://parquetorresdelpaine.cl/wp-content/uploads/2022/04/Torres-jose%CC%81-gonza%CC%81lez-copia-1024x687.jpg');
       background-size: cover;
-      background-position: center;
+     /* background-position: center;*/
       height: 100vh;
-      display: flex;
-      justify-content: center;
+
       color: white;
       text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
     }
     .content {
-          width: 80%; /* or try a fixed value like 400px */
+          width: 50%; /* or try a fixed value like 400px */
   margin-left: 90px;   /* pushes the box to the right */
   margin-right: auto;  /* optional spacing from right edge */
   text-align: left;
-  padding: 20px;
+  padding: 5px;
   border-radius: 8px; 
   display: flex;
   flex-direction: column; /* stack elements vertically */
@@ -126,19 +125,28 @@
   justify-content: center; /* vertically center the group */
   position: absolute;
   top: 50%;
-  left: 5%;
+  left: 0%;
   transform: translateY(-50%);
   color: white;
          /* optional rounded corners */
 
     }
     .content1 {
-        width: 70%; /* or try a fixed value like 400px */
-        margin-left: 10px;   /* pushes the box to the right */
+        width: 400px; /* or try a fixed value like 400px */
+        margin-left: 100px;   /* pushes the box to the right */
         margin-right: 10px;  /* optional spacing from right edge */
         padding: 20px;
-        border-radius: 8px;        /* optional rounded corners */
-             
+        border-radius: 8px; 
+/* optional rounded corners */
+/*display: flex;*/
+  flex-direction: column; /* stack elements vertically */
+  align-items: flex-start; /* keep them left-aligned */
+  /*justify-content: center; /* vertically center the group */
+  position: absolute;
+  top: 90%;
+  left: 45%;
+  transform: translateY(-50%);
+        
     }
 
   </style>

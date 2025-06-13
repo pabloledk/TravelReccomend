@@ -18,7 +18,7 @@ function handleSearch() {
 
       var imageUrl = document.createElement('img');
       imageUrl.src = location.imageUrl;
-      imageUrl.width= 300;
+      imageUrl.width= 400;
 
       var description = document.createElement('p');
       description.textContent = location.description;
